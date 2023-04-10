@@ -1,0 +1,79 @@
+/* --- Reset --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body {
+    min-height: 100vh;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+/* --- Reset --- */
+
+/* --- Variables --- */
+:root {
+    --bg-img-layer: -10;
+    --nav-layer: 10;
+    
+}
+/* --- Variables --- */
+
+body {
+    background-color: #4343f9;
+}
+
+button {
+    background-color: #4343f9;
+    height: 360px;
+    width: 240px;
+    border-radius: 4px;
+    border: 0px none #4343f9;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border: 3px solid black;   
+}
+
