@@ -33,6 +33,7 @@ img, picture, svg, video {
 
 body {
     background-color: #4343f9;
+    min-height: 100vh;
 }
 
 button {
@@ -49,31 +50,34 @@ button {
     text-align: center;
 }
 
-.container {
+.container-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 200px;
 }
 
-.container-second {
+.container-top {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
+}
+
+.container-center {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.container-third {
+.container-bottom {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
-
 div {
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
-    border: 3px solid black;   
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);  
 }
 
